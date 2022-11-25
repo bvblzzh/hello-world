@@ -10,7 +10,7 @@ char* StrCpy(char* src)
    char *p = NULL;
    p =(int *)malloc(sizeof(len+1));
 
-   src=0;
+ 
    while (*src != '\0')
     {
         p=src;
